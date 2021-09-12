@@ -1,0 +1,43 @@
+:root{
+--primary-color:green;
+--secondary-color:blue;
+
+}
+
+body{
+    background-color:aqua;
+    font-style: bold;
+    
+}
+a
+.container{
+    display:flex;
+    flex-direction: column;
+    width:30vw;
+    margin:auto;
+    
+}
+
+label{
+    margin:0.5rem;
+    
+    
+    
+}
+
+input{
+    padding: 7px;
+    margin:0.5rem;
+}
+button{
+    width:15vw; 
+    margin: auto;
+    padding:5px;
+    border-radius:0.2rem;
+    background-color:var(--primary-color);
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: red;
+}
